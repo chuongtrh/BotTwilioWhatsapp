@@ -1,0 +1,24 @@
+{
+  "name": "red-bot-whatsapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start:local": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.466.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "minimist": "^1.2.0",
+    "request": "^2.88.0",
+    "twilio": "^3.31.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
